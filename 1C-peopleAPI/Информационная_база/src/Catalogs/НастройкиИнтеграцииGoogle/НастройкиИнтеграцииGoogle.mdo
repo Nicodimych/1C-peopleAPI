@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee01a0ce-4dd8-4690-8565-6ca95a36b352">
+  <producedTypes>
+    <objectType typeId="499d5a57-d6c0-45d2-b0fc-8897b92fd52e" valueTypeId="618948ae-8736-4555-8e03-5362e55af88c"/>
+    <refType typeId="646238b6-6584-419b-93d2-90387087466e" valueTypeId="612bee7b-7dcb-4c45-895d-1aec05595621"/>
+    <selectionType typeId="57fe2802-86c4-4ea8-a357-1bd62d830d14" valueTypeId="b97ab3e1-542a-42fe-86e0-a72d60e08a4a"/>
+    <listType typeId="a0f5ec8d-947f-409a-a978-4904cd1da8d2" valueTypeId="9ddb604a-3671-4674-b562-d9e71b3833b6"/>
+    <managerType typeId="e90045c8-5798-426b-bbb2-9f9821deeb11" valueTypeId="42331985-7431-43c0-95bc-9df5ba7779be"/>
+  </producedTypes>
+  <name>НастройкиИнтеграцииGoogle</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки интеграции google</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиИнтеграцииGoogle.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиИнтеграцииGoogle.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="452ae4b7-0288-4473-8970-896096449957">
+    <name>КлиентID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b7b89a36-6939-4525-bd06-9b4fbf4c518f">
+    <name>СекретКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Секрет клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c9cae35-f435-4dc4-b0ee-f20ca84f1893">
+    <name>AccessToken</name>
+    <synonym>
+      <key>ru</key>
+      <value>Access token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a6d90d02-1afc-4ea8-9dbc-e8fc0f651abe">
+    <name>RefreshToken</name>
+    <synonym>
+      <key>ru</key>
+      <value>Refresh token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8e3f232-bd05-4a5e-9c0a-d1dda47381e2">
+    <name>ExpiresIn</name>
+    <synonym>
+      <key>ru</key>
+      <value>Expires in</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2acf320e-81a4-4f0e-87ae-6756cc16614c">
+    <name>ТокенОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

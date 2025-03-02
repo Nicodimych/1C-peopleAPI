@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d450373f-6f95-4bcd-be1a-3d0e514a1cee">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6f5d8054-a4b9-4a4f-a067-f23e73d870e4"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="106a891b-e392-4a8b-a032-fb78e5eb5dd5"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d0de6f57-e9d6-42a8-a31c-658e286ce8f5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6f85fd33-dad2-4005-9b9e-dcca255e78de"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="fd0f4623-1563-4fff-a48d-95c5e2e245b4"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="815715bb-6b8c-4242-83f3-34d4229e98ac"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="36de3b1c-4289-4b93-bc41-9ecc5a3c3af1"/>
+  <configurationExtensionCompatibilityMode>8.3.25</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="2a75f072-635d-4f2e-99b5-9670efad8557">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.PeopleAPIСервер</commonModules>
+  <catalogs>Catalog.НастройкиИнтеграцииGoogle</catalogs>
+  <dataProcessors>DataProcessor.Тест</dataProcessors>
+</mdclass:Configuration>

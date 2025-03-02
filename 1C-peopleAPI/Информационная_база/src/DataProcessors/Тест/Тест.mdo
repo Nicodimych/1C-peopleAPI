@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a4f8d39-2d98-4f05-a6fe-1b12d189b3d3">
+  <producedTypes>
+    <objectType typeId="00e16455-d4c8-49c1-800b-1e3870ca00a4" valueTypeId="20406399-22cb-4aaf-a9f3-9f567e48cdc9"/>
+    <managerType typeId="741f96d3-a236-490e-8f82-9f8c41412de5" valueTypeId="47d20a91-407d-4c28-93b6-e9d41379c083"/>
+  </producedTypes>
+  <name>Тест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Тест.Form.Форма</defaultForm>
+  <attributes uuid="639c8891-f537-42fa-9d00-1debde0e7bc7">
+    <name>client_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Client id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="940bec31-fc82-4708-9aa5-44c24b16c30c">
+    <name>client_secret</name>
+    <synonym>
+      <key>ru</key>
+      <value>Client secret</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="24bc425c-9a64-4659-9737-e73ab65a260a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
